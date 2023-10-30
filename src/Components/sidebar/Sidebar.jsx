@@ -11,6 +11,8 @@ import {
   Event,
   School,
 } from "@mui/icons-material";
+import { Users } from "../../dummyData";
+import Friends from "../Friends/Friends";
 
 function Sidebar() {
   return (
@@ -57,14 +59,9 @@ function Sidebar() {
         <button className="sideBarButton">Show More</button>
         <hr className="sideBarHr" />
         <ul className="sideBarFriendList">
-          <li className="sidebarFriend">
-            <img
-              src="assets/person/1.jpeg"
-              alt=""
-              className="sidebarFriendImg"
-            />
-            <span className="sidebarFriendName">John Doe</span>
-          </li>
+          {Users.map((u) => (
+            <Friends key={u.id} user={u} />
+          ))}
         </ul>
       </div>
     </div>

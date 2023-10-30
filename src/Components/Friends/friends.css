@@ -1,0 +1,17 @@
+.sideBarFriendList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sideBarFriend {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.sidebarFriendImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
