@@ -37,3 +37,45 @@ friendList {
   align-items: center;
   margin-bottom: 15px;
 }
+.titlebar {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.infoo {
+  margin-bottom: 30px;
+}
+.infoItem {
+  margin-bottom: 10px;
+}
+.infoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+.infoValue {
+  font-weight: 300;
+}
+
+.followingImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.followings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.followingName {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+}
+.following {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
